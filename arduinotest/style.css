@@ -1,0 +1,200 @@
+body {
+background-color: #fef0f0;
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+background-image: url(car.jpg);
+background-size: cover;
+ }
+
+
+
+
+.placas-container {
+    position: absolute;
+    top: 100px;
+}
+
+.tds {
+    position: absolute;
+    top: 100px;
+}
+
+nav , .barrita { 
+z-index: 999;
+position: fixed;
+top: 40px;
+border-radius: 30px ;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #33333380;
+backdrop-filter: blur(10px);
+color: white;
+height: 40px;
+}
+nav a{
+color: white;
+text-decoration: none;
+padding: 10px 15px;
+cursor: pointer;
+}
+nav ul {
+margin: 0;
+padding: 0;
+list-style: none;
+display: flex;
+justify-content: center;
+align-items: center;}           
+.active{
+background-color: #fdfdfd;
+color: black;
+border-radius: 30px;
+transition: all 0.5s;
+}
+article{
+position: absolute;
+background: white;
+border-radius: 20px;
+padding: 20px;
+width: 80%;
+bottom: 0px;
+left: 50%;
+transform: translatex(-50%);
+}
+.filter-wall{
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: #00000096;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.title{ 
+font-size: 5em;
+text-align: center;
+color: white;
+margin: 0;
+padding: 0;}
+.tdsp{
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.nano{
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    flex-wrap:center;
+    display: flex;
+}
+.mkr{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    flex-wrap:center;
+    display: flex;
+}
+.classic{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    flex-wrap:center;
+    display: flex;  
+}
+.mega{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    flex-wrap:center;
+    display: flex;  
+}
+.tds{
+    flex-direction: column;
+}
+.sensores{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    flex-wrap:center;
+    display: flex;  
+}
+.humedad-temperatura{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    flex-wrap:center;
+   flex-direction: column;
+    display: flex;  
+grid-template-columns: auto;
+}
+.fotoresistencia{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    flex-wrap:center;
+    display: flex; 
+    flex-direction: column;
+}
+
+.emisor-infrarrojo{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    flex-wrap:center;
+    display: flex; 
+    flex-direction: column;
+}
+.s-de-sonido{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    flex-wrap:center;
+    display: flex; 
+    flex-direction: column;
+}
+#sdsimg{
+    width: 300px;
+    height: 200px;
+    margin-right: 500px ;
+}
+#p_nano {
+    display: flex;
+    flex-direction: column;
+}
+#nanoimg{
+    width: 300px;
+    height: 300px;
+    margin-right: 500px ;
+}
+#mkrimg{
+    width: 200px;
+    height: 200px;
+    margin-right: 500px ;
+}
+#classicimg{
+    width: 300px;
+    height: 300px;
+    margin-right: 500px ; 
+}
+#megaimg{
+    width: 300px;
+    height: 300px;
+    margin-right: 500px ;   
+}
+#sensoresimg{
+    width: 300px;
+    height: 200px;
+    margin-right: 500px ;   
+}
+
+#shytimg{
+    width: 300px;
+    height: 200px;
+    flex-direction: row;
+       
+}
+#irimg{
+    width: 300px;
+    height: 200px;
+    margin-right: 500px ;
+}
+#utsimg{
+    width: 300px;
+    height: 200px;
+    margin-right: 500px ;
+}
+#sdgimg{
+    width: 300px;
+    height: 200px;
+    margin-right: 500px ;
+}
